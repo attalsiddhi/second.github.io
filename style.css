@@ -1,0 +1,363 @@
+/*----------
+ NAVBAR 
+ ---------*/
+.head .logo{
+    width: 80px;
+    height: 60px;
+}
+.head nav{
+    background-color: #fff;
+    padding: 15px;
+    padding-left: 50px;
+}
+.head ul{
+    padding-right: 200px;
+}
+.head ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #322153;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.head ul li a:hover{
+    color: #84BD5A;
+}
+.navbar-nav .nav-link.active{
+    color: #84BD5A;
+}
+.head ul li{
+    padding: 10px;
+}
+@media only screen and (max-width:992px){ 
+    .head .btn{
+        display: none;
+    }
+}
+
+.head .btn-custom{
+    background-color: #322153;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 16px !important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+}
+.head .btn-custom:hover {
+    background-color: #84bd5a;
+    color: #322153;
+}
+
+
+/*---------
+ BANNER 
+ ----------*/
+.banner{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+p.banner-subtitle {
+    color: #fff;
+    font-size: 16px;
+    background: #84BD5A;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 13px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.banner-title {
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #322153;
+}
+.banner-title-text {
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.learn-more-btn-section {
+    display: inline-block;
+}
+.learn-more-btn {
+    background-color: #322153;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 40px !important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+}
+.learn-more-btn:hover {
+    background-color: #84bd5a;
+    color: #322153;
+}
+
+/*---------
+ OUR SERVICES 
+ --------------*/
+.services {
+    padding: 100px 0;
+}
+.services .icon{
+    background-color: #84bd5a;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 50%;
+}
+.services .custom_service{
+    transition: transform .5s;
+    background-color: rgba(132,189,90,0.1);
+}
+.services .custom_service:hover{
+    transform: translate(0px,-20px);
+    cursor: pointer;
+}
+.services .custom_service:hover .icon{
+    background-color: #322153;
+    color: #84bd5a;
+    transition-timing-function: ease-out;
+}
+.services h3{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #dee2de;
+}
+
+/*----------
+ REVIEWS 
+ ----------*/
+.reviews-section {
+    padding: 100px 0;
+}
+.reviews-section .custom_review .base{
+    background-color: rgba(132,189,90,0.1); 
+    letter-spacing: 1px; 
+    font-family: 'Roboto', sans-serif;
+}
+.reviews-section .custom_review i{
+        color: #84BD5A;
+        font-size: 35px;
+}
+.reviews-section .custom_review p{
+    font-size: 19px;
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.reviews-section .custom_review h5{
+    font-size: 22px;
+    color: #322153;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/*------------ 
+      FORM 
+------------*/
+
+.contact-form-inner {
+    padding: 30px;
+    border: 1px solid #B3D59B;
+    border-radius: 0 0 10px 10px;
+}
+        h2.section-heading {
+            color: #322153;
+            font-weight: bold;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        h2.section-heading::before {
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 5px;
+            background-color: #84BD5A;
+            bottom: -10px;
+            border-radius: 5px;
+        }
+.contact-section p {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.contact-form {
+    background: #fff;
+    border-radius: 10px;
+}
+.contact-form-head {
+    background-color: rgba(129,185,88,0.6);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.contact-form-head h3 {
+    color: #322153;
+}
+.contact-form-inner {
+    padding: 30px;
+    border: 1px solid #B3D59B;
+    border-radius: 0 0 10px 10px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.contact-form .form-group input, .contact-form .form-group textarea {
+    font-size: 14px;
+    height: 50px;
+    padding: 0 15px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.contact-form .form-group textarea {
+    height: 100px;
+    padding: 15px;
+}
+.contact-form .btn {
+    background-color: #322153;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px !important;
+    border-radius: 100px;
+    border: none;
+}
+.contact-form .btn:hover {
+    background-color: #84BD5A;
+    color: #322153;
+}
+
+
+
+/*---------- 
+     FOOTER 
+ ---------*/
+.footer{
+    background-color: #322153;
+    color: #eeeeee;
+    border-top: 5px solid #84BD5A;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+.footer h3{
+    color: #84BD5A;
+}
+.footer .links a{
+    color: #eeeeee;
+}
+.footer .fa-location-dot{
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.footer .fa-envelope{
+    padding-right: 5px;
+}
+.footer hr{
+    background-color: #84BD5A;
+    margin-bottom: 0;
+    height: 2px;
+}
+.footer .social_media i{
+    font-size: 30px;
+    margin: 10px;
+    color: #eeeeee;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #84BD5A;
+}
+
+
+/*------------------- 
+        POPUP 
+----------------*/
+.modal .modal-dialog{
+    max-width: 875px;
+}
+.mod-info{
+    text-align: center;
+}
+.modal .btn-custom{
+    background-color: #322153;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 16px !important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+}
+.modal .btn-custom:hover{
+    background-color: #84bd5a;
+    color: #322153;
+}
+@media only screen and (max-width:450px){ 
+    .mod-info{
+        display: none;
+    }
+}
+
+/*---------------
+Contact Us, ABOUT US, SERVICES
+------------------*/
+/* Contact Us HEAD SECTION */
+.contact_head {
+    background: #94bd5a;
+    margin-top: 100px;
+}
+.contact_head .cust_head_product{
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 50px;
+font-size: 25px;
+}
+.contact_head .cust_head_product a{
+    text-decoration: none;
+    color: #322153;
+}
+.breadcrumb-item.active {
+color:  #322153;
+}
+.contact_body .custome_size{
+height: 220px;
+}
+.contact_body .custome_size:hover{
+cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+.contact_head .cust_head_product{
+font-size: 18px;
+}
+}
