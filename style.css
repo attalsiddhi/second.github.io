@@ -2,22 +2,22 @@
  NAVBAR 
  ---------*/
 .head .logo{
-    width: 80px;
-    height: 60px;
+    width: 10%;
+    /* height: 100%; */
 }
 .head nav{
     background-color: #fff;
     padding: 15px;
     padding-left: 50px;
 }
-.head ul{
+/* .head ul{
     padding-right: 200px;
-}
+} */
 .head ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    /* padding: 10px 0 10px 30px; */
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -30,6 +30,10 @@
 }
 .navbar-nav .nav-link.active{
     color: #84BD5A;
+}
+.navbar-nav .dropdown-item.active{
+    color: #84BD5A;
+    background-color: #fff;
 }
 .head ul li{
     padding: 10px;
@@ -360,4 +364,149 @@ cursor: pointer;
 .contact_head .cust_head_product{
 font-size: 18px;
 }
+}
+
+/* --------------
+About Us
+-----------------*/
+.head-title {
+    margin-top: 100px;
+    background-color: #1D2A4D;
+    padding: 85px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.head-title h1 {
+    font-weight: bold;
+}
+.us-line {
+    width: 100px;
+    height: 4px;
+    background: #38b34a;
+    margin-top: 0px;
+    opacity: unset;
+    border: none;
+    margin: auto;
+}
+.head-title .a1::after{
+    /* position: absolute; */
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #ffffff;
+}
+.head-title a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* --------------
+Font Family
+-----------------*/
+h1,
+h2,
+h3,
+p,
+a,
+span {
+    font-family: 'Poppins';
+}
+
+
+
+
+/* --------------
+*****************
+Pages of Loan
+****************
+--------------- */
+ /* loan_main */
+ .loan_main{
+    margin-top: 100px;
+}
+.head_loan{
+    color: #38b34a;
+    font-size: 50px;
+}
+/* button */
+.btn {
+    background-color: #38b34a;
+color: #fff;
+border: none;
+padding: 10px;
+border-radius: 20px;
+}
+    .btn:hover {
+    background-color: #173c70;
+    color: #fff;
+}
+/* loan_main_sub1 */
+.loan_img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Loans */
+.sidebar-services{
+padding: 33px 40px 40px;
+background-color: #effffe;
+border-radius: 10px;
+position: -webkit-sticky;
+position: sticky;
+top: 150px;
+padding: 50px;
+font-size: 20px;
+}
+.sidebar-services h2{
+color: #322153;
+font-weight: bold;
+}
+.sidebar-services .ser-active{
+background-color: #322153;
+}
+.our_btn1 a{
+margin: 5px;
+}
+.our_btn1 .btn-custom{
+/*height: 50px;
+width: 250px;*/
+float: left;
+}
+
+
+
+
+/* ---------------
+    breadcrumbs
+------------------*/
+.breadcrumbs{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.breadcrumbs__item{
+    display: inline-block;
+}
+.breadcrumbs__item:not(:last-of-type)::after{
+    content: '\203a';
+    margin: 0 5px;
+    color: #cccccc;
+}
+.breadcrumbs__link{
+    text-decoration: none;
+    color: #999999;
+}
+.breadcrumbs__link:hover{
+    text-decoration: underline;
+}
+.breadcrumbs__link--active{
+    color: #000038;
+    font-weight: 500;
+}
+.row{
+    margin: 0;
 }
