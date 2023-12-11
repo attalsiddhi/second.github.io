@@ -216,47 +216,55 @@
       </footer>
   
   
-        <!-- POPUP -->
-  <div class="modal fade" id="popup" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-    <div class="modal-dialog custome-mdl modal-dialog-centered">
-      <div class="modal-content">
-          <div class="d-flex flex-row float-end justify-content-end">
-          <button type="button" class="btn-close p-lg-3 p-3 " data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class=" mod-info ">
-              <img src="../img/logo.png" width="100%" alt="" class="m-auto">
-              </div>
+<!-- START OF POPUP -->
+<div class="modal fade" id="popup" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog custome-mdl modal-dialog-centered">
+    <div class="modal-content">
+        <div class="d-flex flex-row float-end justify-content-end">
+        <button type="button" class="btn-close p-lg-3 p-3 " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 d-flex justify-content-center align-center m-auto">
+            <div class=" mod-info ">
+            <img src="../img/logo.png" width="100%" alt="" class="m-auto">
             </div>
-            <div class="col-lg-6">
-              <form class="px-lg-3">
-                <h5 class="modal-title px-lg-5 pb-lg-3 text-center">Consult Now</h5>
-                <div class="mb-3">
-                  <label for="exampleInputname" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Email </label>
-                  <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputphone" class="form-label">Phone</label>
-                  <input type="tel" class="form-control" id="exampleInputphone">
-                </div>
-                
-                <div class="mb-3">
-                <button type="submit" class="btn btn-custom m-auto d-flex justify-content-center align-center">Submit</button>
-                </div>
-              </form>
-                </div>
           </div>
+          <div class="col-lg-6">
+            <form class="contact-form">
+              <h5 class="modal-title px-lg-5 pb-lg-3 text-center">Consult Now</h5>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                <select id="pet-select" class="form-control">
+                  <option value="">Please choose an option</option>
+                  <option value="dog">Personal Loan</option>
+                  <option value="dog">Home Loan</option>
+                  <option value="cat">Business Loan</option>
+                  <option value="hamster">car Loan</option>
+                  <option value="dog">Life Insurance</option>
+                  <option value="dog">Health Insurance</option>
+                  <option value="dog">General Insurance</option>
+                  <option value="dog">Real Estate</option>
+                  <!-- <option value="goldfish">Income Certificate</option> -->
+              </select>
+              </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Write Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </form>
+              </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
+<!-- END OF POPUP -->  
   
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

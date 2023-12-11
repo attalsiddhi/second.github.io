@@ -92,8 +92,8 @@
       <section class="banner">
       <div class="container">
         <div class="row">
-        <div class=" col-lg-6 mb-lg-0 mb-5 header-img-section">
-          <img src="img/money_tree-bg.png" class="img-fluid" alt="banner" width="100%">
+        <div class=" col-lg-7 mb-lg-0 mb-5 header-img-section mt-lg-5 pt-lg-3">
+          <img src="img/financial_advisor.jpg" class="img-fluid rounded-3" alt="banner" width="100%" height="100%">
         </div>
         <div class="col-lg-5 m-auto p-lg-5 p-3 col-sm-12">
           <div class="info m-auto justify-content-center ali">
@@ -129,7 +129,8 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="d-flex flex-column shadow p-5 mt-lg-5 mt-3 rounded rounded-3 custom_service">
                         <div class="icon text-center">
-                            <i class="fa-solid fa-house-circle-check fa-3x"></i>
+                            <!-- <i class="fa-solid fa-house-circle-check fa-3x"></i> -->
+                            <i class="fa-solid fa-business-time fa-3x"></i>
                         </div>
                         <div class="info text-center">
                             <h3>Business Loan</h3>
@@ -140,7 +141,8 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="d-flex flex-column shadow p-5 mt-lg-5 mt-3 rounded rounded-3 custom_service">
                         <div class="icon text-center">
-                            <i class="fa-solid fa-house-circle-check fa-3x"></i>
+                            <!-- <i class="fa-solid fa-house-circle-check fa-3x"></i> -->
+                            <i class="fa-solid fa-hand-holding-dollar fa-3x"></i>
                         </div>
                         <div class="info text-center">
                             <h3>Personal Loan</h3>
@@ -154,7 +156,8 @@
               <div class="col-lg-4 col-md-6 col-12">
                 <div class="d-flex flex-column shadow p-5 mt-lg-5 mt-3 rounded rounded-3 custom_service">
                     <div class="icon text-center">
-                        <i class="fa-solid fa-house-circle-check fa-3x"></i>
+                        <!-- <i class="fa-solid fa-house-circle-check fa-3x"></i> -->
+                        <i class="fa-solid fa-car-rear fa-3x"></i>
                     </div>
                     <div class="info text-center">
                         <h3>Car Loan</h3>
@@ -165,7 +168,8 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="d-flex flex-column shadow p-5 mt-lg-5 mt-3 rounded rounded-3 custom_service">
                         <div class="icon text-center">
-                            <i class="fa-solid fa-house-circle-check fa-3x"></i>
+                            <!-- <i class="fa-solid fa-house-circle-check fa-3x"></i> -->
+                            <i class="fa-solid fa-file fa-3x"></i>
                         </div>
                         <div class="info text-center">
                             <h3>ITR File</h3>
@@ -176,7 +180,8 @@
                 <div class="col-lg-4 col-md-6 col-12">
                   <div class="d-flex flex-column shadow p-5 mt-lg-5 mt-3 rounded rounded-3 custom_service">
                       <div class="icon text-center">
-                          <i class="fa-solid fa-house-circle-check fa-3x"></i>
+                          <!-- <i class="fa-solid fa-house-circle-check fa-3x"></i> -->
+                          <i class="fa-solid fa-building fa-3x"></i>
                       </div>
                       <div class="info text-center">
                           <h3>Real Estate</h3>
@@ -323,11 +328,14 @@
                           <div class="form-group">
                           <select id="pet-select" class="form-control">
                             <option value="">Please choose an option</option>
+                            <option value="dog">Personal Loan</option>
                             <option value="dog">Home Loan</option>
                             <option value="cat">Business Loan</option>
-                            <option value="hamster">Personal Loan</option>
-                            <option value="parrot">ITR File</option>
-                            <option value="spider">GST Registration</option>
+                            <option value="hamster">car Loan</option>
+                            <option value="dog">Life Insurance</option>
+                            <option value="dog">Health Insurance</option>
+                            <option value="dog">General Insurance</option>
+                            <option value="dog">Real Estate</option>
                             <!-- <option value="goldfish">Income Certificate</option> -->
                         </select>
                         </div>
@@ -396,43 +404,38 @@
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 d-flex justify-content-center align-center m-auto">
             <div class=" mod-info ">
             <img src="img/logo.png" width="100%" alt="" class="m-auto">
             </div>
           </div>
           <div class="col-lg-6">
-            <form class="px-lg-3">
+            <form class="contact-form">
               <h5 class="modal-title px-lg-5 pb-lg-3 text-center">Consult Now</h5>
-              <div class="mb-3">
-                <label for="exampleInputname" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail" class="form-label">Email </label>
-                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail" class="form-label">Choose Service </label>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
                 <select id="pet-select" class="form-control">
                   <option value="">Please choose an option</option>
+                  <option value="dog">Personal Loan</option>
                   <option value="dog">Home Loan</option>
                   <option value="cat">Business Loan</option>
-                  <option value="hamster">Personal Loan</option>
-                  <option value="parrot">ITR File</option>
-                  <option value="spider">GST Registration</option>
+                  <option value="hamster">car Loan</option>
+                  <option value="dog">Life Insurance</option>
+                  <option value="dog">Health Insurance</option>
+                  <option value="dog">General Insurance</option>
+                  <option value="dog">Real Estate</option>
                   <!-- <option value="goldfish">Income Certificate</option> -->
               </select>
-              
               </div>
-              <div class="mb-3">
-                <label for="exampleInputphone" class="form-label">Phone</label>
-                <input type="tel" class="form-control" id="exampleInputphone">
-              </div>
-              
-              <div class="mb-3">
-              <button type="submit" class="btn btn-custom m-auto d-flex justify-content-center align-center">Submit</button>
-              </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Write Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
             </form>
               </div>
         </div>
